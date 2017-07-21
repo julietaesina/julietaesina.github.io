@@ -1,0 +1,511 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
+
+button {
+  display: block;
+  height: 35px;
+  border: none;
+  width: 180px;
+  color: #fff!important;
+  font-size: 18px!important;
+  font-family: "SegoeUIRegular",sans-serif!important;
+  background: rgba(120,95,166,1);
+ 
+  background: rgb(120,95,166);
+background: -moz-linear-gradient(top, rgba(120,95,166,1) 0%, rgba(149,125,192,1) 50%, rgba(140,116,184,1) 100%, rgba(120,95,166,1) 100%);
+background: -webkit-linear-gradient(top, rgba(120,95,166,1) 0%,rgba(149,125,192,1) 50%,rgba(140,116,184,1) 100%,rgba(120,95,166,1) 100%);
+background: linear-gradient(to bottom, rgba(120,95,166,1) 0%,rgba(149,125,192,1) 50%,rgba(140,116,184,1) 100%,rgba(120,95,166,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#785fa6', endColorstr='#785fa6',GradientType=0 );
+
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+
+   }
+  button:hover {
+    background: #008ed3;
+    -webkit-box-shadow: inset 0px 4px 7px 6px rgba(0, 0, 0, 0.24);
+      -webkit-box-shadow--moz-box-shadow: inset 0px 4px 7px 6px rgba(0, 0, 0, 0.24);
+      -webkit-box-shadow-box-shadow: inset 0px 4px 7px 6px rgba(0, 0, 0, 0.24); }
+
+video {
+  width: 100%; }
+
+.photo_clients {
+  background-color: #faf3f7;
+  padding-bottom: 50px; }
+  .advantage .row{
+    margin:0 15px;
+  }
+
+.slid_clients.slider_item {
+  margin-right: 20px; }
+
+.slider_container {
+  position: relative; }
+
+.slider_container img {
+  max-width: 100%;
+  height: 200px; }
+
+.next_button, .prev_button {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer; }
+
+.next_button {
+  background: url("../img/arrow_right.png") no-repeat;
+  height: 29px;
+  width: 36px;
+  right: 70px; }
+
+.prev_button {
+  left: 20px;
+  background: url("../img/arrow_left.png") no-repeat;
+  height: 29px;
+  width: 36px; }
+
+.korm_buterfly {
+  padding: 40px 0 50px;
+}
+
+.korm_descr {
+  font-size: 0.875em;
+  line-height: 24px;
+  background: url(../img/bg_buterfly.png) no-repeat 34% 100%;
+
+   }
+  .korm_descr h2 {
+    text-align: left;
+    margin-top: 0;
+     }
+    .korm_descr p{
+      font-family: "SegoeUIRegular",sans-serif;
+      font-size: 14px;
+
+
+    }
+
+    .korm_descr button{
+      margin-top: 17px;
+    }
+
+    .seo_text{
+      clear: both;
+    }
+
+.video_otziv {
+  background-color: #faf3f7;
+  padding: 40px 0; }
+  .video_otziv h2 {
+    margin-top: 0; }
+
+.otziv {
+  background-color: #f1ffff;
+  padding: 30px 0; }
+  .otziv h2 {
+    margin-top: 0; }
+
+.slider_otziv p {
+  font-size: 14px; }
+
+.info-otziv {
+  width: 210px;
+  margin: auto; }
+  .info-otziv img {
+    float: left; 
+   margin-right: 10px;
+  }
+
+.date {
+     font-size: 14px;
+   }
+
+.date span{
+      padding-left: 5px;
+}
+
+.descr_info {
+  float: right; }
+  .descr_info h3 {
+    margin: 5px auto; }
+
+.feedback {
+ background: url(../img/bg_feedback.png) 50% 25% no-repeat;
+  padding: 45px 0;
+  
+
+  }
+
+
+  .contacts_header .tab_item,.contacts_footer .tab_item{
+      display: none;
+      letter-spacing: 1px;
+    }
+    .contacts_header .tab_content .tab_item:first-child,.contacts_footer .tab_content .tab_item:first-child{
+      display: block
+    }
+    .tab_item {
+        font-size: 22px;
+        padding-left: 30px;
+          
+    }
+
+    .tab_content{
+       position: relative;
+    }
+
+    .tab_content:before{
+      content:"";
+      position: absolute;
+      background: url(../img/phone.png) no-repeat 0 50%;
+      width: 34px;
+      height: 34px;
+      left: 0;
+    }
+    .contacts_header .tab_content,.contacts_footer .tab_content{
+      
+      word-spacing: 3px;
+      padding-left: 12px;
+      margin-top: -5px;
+
+
+}
+
+     
+    }
+    .main_menu li:last-child{
+      margin-right: 0;
+    }
+    .contacts_header .tabs .tab:last-child,.contacts_footer .tabs .tab:last-child{
+      margin-right:0;
+    }
+    .cart{
+        background: url(../img/cart.png) no-repeat 0 50%;
+      position: relative;
+      width: 34px;
+      height: 34px;
+      margin: 27px 0px;
+    }
+    .cart .count{
+      position: absolute;
+      bottom: -4px;
+      right: -4px;
+      background: #008ed3;
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    .pad .row{
+      margin-right: 20px;
+    }
+
+
+    .col-md-1{
+      padding-left: 0!important;
+    }
+    .but_item img{
+      width: 100%;
+    }
+    .but_item{
+      width: auto;
+      height: auto;
+    }
+    .but_item h2{
+      width: 100%;
+    }
+    .pad{
+          padding-right: 40px;
+    }
+
+
+    .slider_klients{
+      text-align: center;
+    }
+    .slider_klients .owl-prev, .slider_video .owl-prev{
+        background: url(../img/arrow_left.png) no-repeat;
+        height: 29px;
+        width: 36px;
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        cursor: pointer;
+        transform: translate(100%, -50%);
+    }
+    .slider_klients .owl-next, .slider_video .owl-next{
+      right: 20px;
+        background: url(../img/arrow_right.png) no-repeat;
+        height: 29px;
+        width: 36px;
+          position: absolute;
+        top: 50%;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+
+    .sliders_otziv .owl-next, .sliders_otziv .owl-next{
+      right: 0;
+        background: url(../img/arrow-next.png) no-repeat;
+        height: 35px;
+        width: 36px;
+        position: absolute;
+        top: 25%;
+        z-index: 10;
+        cursor: pointer;
+        transform: translate(0, -50%);
+    }
+
+    .sliders_otziv .owl-prev, .sliders_otziv .owl-prev{
+        left: -70px;
+        background: url(../img/arrow-prev.png) no-repeat;
+        height: 35px;
+        width: 36px;
+        position: absolute;
+        top: 25%;
+        z-index: 10;
+        cursor: pointer;
+        transform: translate(0, -50%);
+    }
+
+    .sliders_otziv .owl-prev:hover{
+       background: url(../img/arrow-prev-hover.png) no-repeat;
+    }
+
+    .sliders_otziv .owl-next:hover{
+       background: url(../img/arrow-next-hover.png) no-repeat;
+    }
+
+    
+    .slider_video .owl-item{
+      padding: 0 5px;
+      box-sizing: border-box;
+    }
+    .sliders_otziv{
+      width: 50%;
+      margin: auto;
+    }
+    input.error, textarea.error{
+      border: 1px #f00 solid ;
+      outline: none
+    }
+    label.error{
+      color: #f00;
+      font-size: 10px;
+      font-family: "SegoeUIRegular",sans-serif;
+
+    }
+    .forms_buterfly input, .forms_buterfly textarea{
+      color: #000;
+    }
+   
+  .logo{
+    width: 224px;
+  }
+
+.feed_form h2 {
+  text-align: left;
+  margin-top: 0; }
+
+textarea {
+  resize: vertical; }
+
+input, textarea {
+  border: none; }
+
+.forms_buterfly input, .forms_buterfly textarea {
+  background: #f5e9f0;
+  color: #000;
+  border-radius: 3px; 
+  font-size: 16px;
+}
+
+.forms_buterfly input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%; 
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.forms_buterfly textarea {
+  width: 100%; 
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.forms_buterfly .col-md-6 {
+  padding-left: 0; }
+
+.forms_buterfly .col-pad {
+  padding-right: 0; }
+
+footer {
+  background: url(../img/footer_bg.png);
+  padding-top: 20px; 
+  background-size:cover;
+
+}
+
+#but_buter{
+  width: 137px;
+  margin-top: 10px;
+}
+
+.center{
+  text-align: center;
+}
+  footer nav {
+    text-align: center; }
+  footer .social a {
+    margin-right: 10px; }
+  footer .fot_niz {
+    margin: 20px 0; }
+  footer .contacts {
+    text-align: right; }
+  footer .contacts {
+    color: #000 !important;
+    margin-right: 15px; }
+
+  .social{
+    text-align: center;
+  }
+  .tabs .tab{
+    color: #000;
+    font-size:16px;
+    margin-right: 12px;
+    font-family: "SegoeUILight",sans-serif;
+    font-size: 16px;
+
+  }
+
+   .tabs .tab:hover{
+     color:#249dd8;
+     text-decoration: none !important;
+     border-bottom: 1px solid #008ed3;
+     padding-bottom: 1px;
+
+   }
+
+  .active_tab {
+    color:#008ed3!important;
+    text-decoration: none !important;
+    font-family: "SegoeUISemiBold",sans-serif !important;
+    border-bottom: 1px solid #008ed3;
+   
+
+  }
+
+  .pointer a{
+    cursor: pointer;
+  }
+
+  
+  .tab_item{
+    font-size:22px;
+    font-family: "SegoeUIRegular",sans-serif;
+    position: relative;
+
+
+  }
+
+  .success{
+    color: #785fa6;
+    height: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "SegoeUIRegular",sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    width: 472px;
+    background: #faf3f7 url(../img/bg_buterfly.png) no-repeat 76% 80%;
+}
+
+
+  }
+
+  .tab_item:before{
+    content: "";
+    position: absolute;
+    background:url(../img/phone.png) no-repeat no-repeat 0 50%;
+    padding-left: 36px;
+    width: 34px;
+    height: 34px;
+  }
+
+.img_feed{
+   text-align: right
+}
+
+.seo_text{
+  margin-left: 20px;
+}
+
+.seo_text p{
+  font-size:14px!important;
+  line-height: 24px;
+}
+.seo_text h3{
+  font-family: "SegoeUILight",sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-shadow: 0px 0px 0px #000;
+
+}
+
+
+
+.copiright{
+  font-size:16px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.contacts_footer{
+  margin-top: -15px;
+}

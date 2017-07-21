@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: "AvantGarde";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/AvantGarde/AvantGarde.eot?#iefix") format("embedded-opentype"), url("../fonts/AvantGarde/AvantGarde.woff") format("woff"), url("../AvantGarde/AvantGarde.ttf") format("truetype"); }
+
+
+
+
+@font-face {
+  font-family: "SegoeUISemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SeqoeSemibold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SeqoeSemibold/SegoeUISemiBold.woff") format("woff"), url("../fonts/SeqoeSemibold/SegoeUISemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeUILight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeUIRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype"); }

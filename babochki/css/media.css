@@ -1,0 +1,297 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .adv_item{
+    margin-bottom:40px;
+  }
+
+  .nav_footer{
+    display: none!important;
+  }
+
+   .logo_wrap{
+    text-align:center;
+  }
+  nav{
+    position: absolute;
+    z-index:12;
+    width:100%;
+     display: none;
+  }
+
+  .main_menu{
+    text-align: center;
+    margin:0;
+   
+
+  }
+
+  .sliders_otziv .owl-prev, .sliders_otziv .owl-prev{
+    left: 0!important;
+    top: 0;
+  }
+
+  .sliders_otziv .owl-next, .sliders_otziv .owl-next{
+    top:0;
+  }
+
+  .korm_img img{
+    display: block;
+    margin: auto;
+  }
+
+  .main_menu:hover{
+    cursor: pointer;
+  }
+
+  .main_menu li{
+   display: block;
+   background-color:#0D6D8D;
+   margin-right:0;
+ }
+
+ .main_menu li a{
+   display:block;
+   padding: 10px 0;
+   color:#fff;
+ }
+
+.main_menu li a:hover{
+  background-color:#8168AE;
+  color:#fff;
+}
+
+.main_menu_button{
+  background: rgb(120,95,166);
+background: -moz-linear-gradient(top, rgba(120,95,166,1) 0%, rgba(149,125,192,1) 50%, rgba(140,116,184,1) 100%, rgba(120,95,166,1) 100%);
+background: -webkit-linear-gradient(top, rgba(120,95,166,1) 0%,rgba(149,125,192,1) 50%,rgba(140,116,184,1) 100%,rgba(120,95,166,1) 100%);
+background: linear-gradient(to bottom, rgba(120,95,166,1) 0%,rgba(149,125,192,1) 50%,rgba(140,116,184,1) 100%,rgba(120,95,166,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#785fa6', endColorstr='#785fa6',GradientType=0 );
+  color:#fff;
+  font-size:18px;
+  text-align: center;
+  padding:10px;
+      margin-top: 50px;
+  
+}
+
+
+.cart{
+      float: right;
+margin-right: 30px;
+position: relative;
+width: 34px;
+height: 34px;
+margin-top: -78px;
+top: 0;
+
+    }
+
+
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .col-md-1{
+    position: static;
+  }
+.cart{
+    position: absolute !important;
+    top: 265px;
+    left: 50%;
+}
+.contacts.pull-right{
+  float: none !important;
+}
+.contacts .tab_content{
+  display: table;
+  margin: auto !important;
+}
+.pad{padding-right: 0 !important;}
+.but_item{
+  margin: 30px auto
+}
+
+.main_menu li a{
+  margin:0;
+}
+
+.but_item h2{
+  width:100%;
+  
+}
+
+.social{
+  margin-bottom: 30px;
+
+}
+
+.contacts_header .tab_content, .contacts_footer .tab_content{
+   margin-right: 30px;
+}
+.tabs{
+  text-align: center!important;
+}
+
+.but_item h2 a::after{
+  background: none!important;
+}
+
+.forms_buterfly .col-md-6{
+  padding-right:0!important;
+}
+.icon_height img{
+  width: 22px!important;
+  height:22px;
+}
+.ufl_height img{
+  height: 22px;
+}
+
+.pad .row{
+  margin-right:0!important;
+}
+footer{
+  background-color: #73DCF0;
+}
+
+.logo_wrap h1{
+  text-align: center;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.contacts_footer,.contacts_header,.pull-right{
+  float:none !important;
+  text-align: center;
+}
+
+.slider_item{
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+
+} 
+
+.tab_item{
+  background-position: 27% 50%;
+}
+
+
+.info-otziv img{
+  width:65px;
+}
+
+button{
+  width:100%;
+  background-size:100%;
+  height:51px;
+}
+
+
+button:hover{
+  width:100%;
+  background-size:100%;
+   height:51px;
+}
+
+.social{
+  text-align:center;
+  margin-top:15px;
+}
+
+.social a img{
+  width:40px;
+  
+}
+
+
+.contacts{
+  text-align: center;
+}
+  
+.feed_form h2{
+  text-align: center;
+}
+
+.slider_otziv p,.copiright{
+   text-align: center;
+}
+ 
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+  .logo img{
+    width: 224px;
+  }
+
+
+  img{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .but_item {
+  width:96%;
+  
+}
+
+.tab_item{
+  background-position: 25% 50%;
+}
+
+ 
+
+ 
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+    .main_menu_button{
+      width: 346px;
+    }
+
+    
+
+    .main_menu_button{
+      margin-top: 90px;
+    }
+
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+   nav{
+  display: block!important;
+}
+
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
+
